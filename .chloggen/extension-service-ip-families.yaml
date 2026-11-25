@@ -1,0 +1,5 @@
+change_type: bug_fix
+component: collector
+note: Honor the configured IP families and IP family policy for collector extension Services.
+issues: [5891]
+subtext: Existing extension Services may need to be recreated if their primary IP family differs from the configured primary family.
